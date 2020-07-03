@@ -35,7 +35,7 @@
             <a-form-item label="酒店商圈" v-bind="formItemLayout">
                 <a-select
                         placeholder="请设定酒店商圈"
-                        v-decorator="['bizRegion', { rules: [{ required: true, message: '请输入优惠商圈' }] }]"
+                        v-decorator="['bizRegion', { rules: [{ required: false, message: '请输入优惠商圈' }] }]"
                 >
                     <a-select-option value="XiDan">西单</a-select-option>
                     <a-select-option value="XiCheng">西城广场</a-select-option>
